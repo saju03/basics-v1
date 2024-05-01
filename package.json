@@ -1,0 +1,30 @@
+{
+  "name": "reactv1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build":"vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saju03/basics-v1.git"
+  },
+  "author": "saju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saju03/basics-v1/issues"
+  },
+  "homepage": "https://github.com/saju03/basics-v1#readme",
+  "devDependencies": {
+    "vite": "^5.2.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
