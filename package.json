@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
-    "build":"vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "repository": {
@@ -21,10 +21,15 @@
   },
   "homepage": "https://github.com/saju03/basics-v1#readme",
   "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
     "vite": "^5.2.10"
   },
   "dependencies": {
+    "axios": "^1.6.8",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.0"
   }
 }
