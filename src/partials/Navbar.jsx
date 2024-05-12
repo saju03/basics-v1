@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
+import user from '../Utils/userContext'
 
 export default function Navbar() {
+  const userCreatedContext = useContext(user)
   return (
     <nav className=" bg-white w-full flex relative justify-between items-center mx-auto px-8 h-20">
   {/* logo */}
@@ -88,14 +90,14 @@ export default function Navbar() {
            About
           </div>
         </Link>
-        <a
+        <Link
           className="inline-block py-2 px-3 hover:bg-gray-200 rounded-full"
-          href="#"
+          to={undefined}
         >
           <div className="flex items-center relative cursor-pointer whitespace-nowrap">
-            Blog
+            {userCreatedContext?.name}
           </div>
-        </a>
+        </Link>
 
         <div className="block relative">
           <button
